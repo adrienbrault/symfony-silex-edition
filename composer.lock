@@ -8,12 +8,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/adrienbrault/AdrienBraultSilexBundle.git",
-                "reference": "21ad828a779f032609f3ac13a00a10735ccfc67b"
+                "reference": "bf3a4ac6bb02a84288fff58ee3591e9ba952caf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adrienbrault/AdrienBraultSilexBundle/zipball/21ad828a779f032609f3ac13a00a10735ccfc67b",
-                "reference": "21ad828a779f032609f3ac13a00a10735ccfc67b",
+                "url": "https://api.github.com/repos/adrienbrault/AdrienBraultSilexBundle/zipball/bf3a4ac6bb02a84288fff58ee3591e9ba952caf3",
+                "reference": "bf3a4ac6bb02a84288fff58ee3591e9ba952caf3",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +27,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-04-06 23:09:33"
+            "time": "2013-04-06 23:33:29"
         },
         {
             "name": "doctrine/annotations",
