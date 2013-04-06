@@ -18,9 +18,7 @@ require_once __DIR__.'/../app/AppKernel.php';
 
 $kernel = new AppKernel('prod', false);
 $kernel->loadClassCache();
-$kernel->boot();
 require __DIR__.'/../src/controllers.php';
-$kernel->flush();
 //$kernel = new AppCache($kernel);
 Request::enableHttpMethodParameterOverride();
 $request = Request::createFromGlobals();

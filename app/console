@@ -10,7 +10,7 @@ set_time_limit(0);
 require_once __DIR__.'/bootstrap.php.cache';
 require_once __DIR__.'/AppKernel.php';
 
-use Symfony\Bundle\FrameworkBundle\Console\Application;
+use AdrienBrault\SilexBundle\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;
 
 $input = new ArgvInput();
@@ -19,8 +19,6 @@ $debug = getenv('SYMFONY_DEBUG') !== '0' && !$input->hasParameterOption(array('-
 
 $kernel = new AppKernel($env, $debug);
 $application = new Application($kernel);
-$kernel->boot();
 require __DIR__.'/../src/console.php';
 require __DIR__.'/../src/controllers.php';
-$kernel->flush();
 $application->run($input);
